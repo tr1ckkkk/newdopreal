@@ -1,0 +1,203 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.2.cf7d3637)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2424,
+            "type": "VEC3",
+            "max": [
+                210.1919708251953,
+                45.4485969543457,
+                0.0
+            ],
+            "min": [
+                3.7717971801757814,
+                -0.7481250762939453,
+                -15.0
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2424,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 2424,
+            "type": "SCALAR",
+            "max": [
+                2423
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 67872,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 29088,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 29088,
+            "byteLength": 29088,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 58176,
+            "byteLength": 9696,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAATdEVYdFNvZnR3YXJlAERpcmVjdFhUZXjKRvaXAAAAGUlEQVQoU2NkYGD4D8Q4AROUxgmGgwIGBgAMUwEPu7lFbgAAAABJRU5ErkJggg=="
+        },
+        {
+            "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAATdEVYdFNvZnR3YXJlAERpcmVjdFhUZXjKRvaXAAAAGUlEQVQoU2NkmMnwnwEPYILSOMFwUMDAAACo6QGogGBXFgAAAABJRU5ErkJggg=="
+        }
+    ],
+    "materials": [
+        {
+            "name": "50",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "doubleSided": true
+        },
+        {
+            "name": "material"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "mesh_id38",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "root",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "node_id35",
+            "matrix": [
+                0.0010000000474974514,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0010000000474974514,
+                4.238050882454658e-12,
+                0.0,
+                0.0,
+                -4.238050882454658e-12,
+                0.0010000000474974514,
+                0.0,
+                -0.13892243802547456,
+                0.11203213781118393,
+                0.2499663382768631,
+                1.0
+            ],
+            "children": [
+                2
+            ]
+        },
+        {
+            "name": "nodes[0]",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -106.98188781738281,
+                -22.350234985351564,
+                7.5,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "minFilter": 9985
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
